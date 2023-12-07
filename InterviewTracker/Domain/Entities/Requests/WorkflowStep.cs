@@ -83,7 +83,7 @@ public class WorkflowStep
         Comment = comment;
     }
 
-    public void SetStatus(User? user, Status status)
+    internal void SetStatus(User? user, Status status)
     {
         UserId = user!.Id;
         RoleId = user.RoleId;
