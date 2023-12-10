@@ -1,0 +1,60 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\makad\AppData\Local\JetBrains\Rider2023.3\resharper-host\temp\Rider\vAny\CoverageData\_InterviewTracker.1085164256\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1887b307_002D291c_002D4cdb_002D85bb_002De7941bfdb4f5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Constructor_ValidArguments_ShouldInitializeProperties #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.Constructor_ValidArguments_ShouldInitializeProperties&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowStepTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=718af59f_002D290f_002D4620_002Dba67_002D0545b7cba59e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8266c53c_002D1106_002D471d_002D9e84_002D9f71e4ff7887/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Constructor_WithValidArguments_ShouldSetProperties" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=90823a30_002Df6d0_002D4908_002D9006_002D78901b41e715/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SetDocument_WithNullDocument_ShouldThrowArgumentNullException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.SetDocument_WithNullDocument_ShouldThrowArgumentNullException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.Constructor_WithEmptyId_ShouldThrowArgumentException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.Approve_WithNoPendingStatus_ShouldThrowArgumentExceptionAndNotAddEvent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.Approve_WithoutPendingStatus_ShouldThrowArgumentExceptionAndNotAddEvent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.Approve_WithPendingStatus_ShouldApproveRequestAndAddEvent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests.AddStep_WithUserAndRoleId_ShouldAddStep&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests.IsApprove_WithLastStepApprove_ShouldReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.SetUser_WithNullUser_ShouldThrowArgumentNullException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests.SetStep_WithValidArguments_ShouldAddStepToWorkflow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.DocumentTests.Constructor_InvalidEmail_ShouldThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.DocumentTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9f337969_002D51bf_002D4e27_002D8352_002D5a59bdf96bfd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Constructor_ValidArguments_ShouldInitializeProperties" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests.Constructor_ValidArguments_ShouldInitializeProperties&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c56654b5_002D3a5f_002D4077_002Da90a_002Dc6ac05ee44fe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SetStep_WithValidArguments_ShouldAddStepToWorkflow" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests.SetStep_WithValidArguments_ShouldAddStepToWorkflow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests.IsReject_WithNoRejectSteps_ShouldReturnFalse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests.IsApprove_WithLastStepApprove_ShouldReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cbcec441_002D97b6_002D4f45_002D8905_002D263f44e5cd46/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateRequest_WithValidParameters_ShouldCreateRequest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Templates.WorkflowTemplateTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowStepTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.RequestTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ccccee19_002D4e39_002D4636_002D92a7_002Db4d544948b09/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SetComment_NullComment_ShouldThrowArgumentException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowStepTests.SetComment_NullComment_ShouldThrowArgumentException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowStepTests.SetStatus_WithValidUserAndStatus_ShouldSetPropertiesCorrectly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4077F755-B8A9-4D60-9F02-B2983719DCE5::net6.0::InterviewTracker.Tests.Domain.Requests.WorkflowTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

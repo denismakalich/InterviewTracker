@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 
 namespace Domain.Entities.Requests;
 
@@ -54,25 +55,7 @@ public class WorkflowStep
         Order++;
     }
 
-    [MemberNotNull(nameof(UserId))]
-    private void SetUser(User user)
-    {
-        ArgumentNullException.ThrowIfNull(user);
-
-        UserId = user.Id;
-    }
-
-    [MemberNotNull(nameof(RoleId))]
-    private void SetRole(Guid roleId)
-    {
-        if (roleId == Guid.Empty)
-        {
-            throw new ArgumentException("Id cannot be empty or null.", nameof(roleId));
-        }
-
-        RoleId = roleId;
-    }
-
+    [MemberNotNull(nameof(Comment))]
     public void SetComment(string? comment)
     {
         if (string.IsNullOrEmpty(comment))
@@ -83,7 +66,7 @@ public class WorkflowStep
         Comment = comment;
     }
 
-    internal void SetStatus(User? user, Status status)
+    public void SetStatus(User? user, Status status)
     {
         UserId = user!.Id;
         RoleId = user.RoleId;

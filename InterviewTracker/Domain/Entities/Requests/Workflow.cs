@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.Diagnostics.CodeAnalysis;
+using Domain.Entities.Templates;
 
 namespace Domain.Entities.Requests;
 
@@ -33,7 +34,7 @@ public class Workflow
         Steps = steps;
     }
 
-    public static Workflow Create(string name, WorkflowTemplate.WorkflowTemplate workflowTemplate)
+    public static Workflow Create(string name, WorkflowTemplate workflowTemplate)
     {
         return new Workflow(Guid.NewGuid(), name, workflowTemplate.Id, new List<WorkflowStep>());
     }
@@ -51,12 +52,11 @@ public class Workflow
 
     public void AddStep(string name, Status status, User? user, Guid roleId, string comment)
     {
-        if (user is null)
+        if (user is null && roleId != Guid.Empty)
         {
             Steps.Add(WorkflowStep.Create(name, status, roleId, comment));
         }
-
-        if (roleId == Guid.Empty)
+        else if (roleId == Guid.Empty && user is not null)
         {
             Steps.Add(WorkflowStep.Create(name, status, user, comment));
         }

@@ -69,7 +69,7 @@ public class Request
 
         if (statusPending == null)
         {
-            throw new ArgumentException("No standby statuses found");
+            throw new ArgumentException("No stand by statuses found");
         }
 
         statusPending.SetStatus(user, Status.Approve);
@@ -80,7 +80,7 @@ public class Request
     [MemberNotNull(nameof(User))]
     public void Reject(User user)
     {
-        var statusPending = Workflow?.ReadSteps.FirstOrDefault(step => step.Status == Status.Pending);
+        var statusPending = Workflow.ReadSteps.FirstOrDefault(step => step.Status == Status.Pending);
 
         if (statusPending == null)
         {
@@ -89,17 +89,14 @@ public class Request
 
         statusPending.SetStatus(user, Status.Reject);
 
-        _events.Add(new RequestRejectEvent(Guid.NewGuid(), $"{DateTime.UtcNow}: reject event edded", Id));
+        _events.Add(new RequestRejectEvent(Guid.NewGuid(), $"{DateTime.UtcNow}: reject event added", Id));
     }
 
     public void Restart()
     {
-        if (Workflow != null)
+        foreach (var step in Workflow.ReadSteps)
         {
-            foreach (var step in Workflow.ReadSteps)
-            {
-                step.SetStatus(User, Status.Pending);
-            }
+            step.SetStatus(User, Status.Pending);
         }
     }
 }

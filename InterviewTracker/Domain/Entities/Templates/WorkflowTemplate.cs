@@ -2,14 +2,14 @@
 using System.Diagnostics.CodeAnalysis;
 using Domain.Entities.Requests;
 
-namespace Domain.Entities.WorkflowTemplate;
+namespace Domain.Entities.Templates;
 
 public class WorkflowTemplate
 {
     public Guid Id { get; private init; }
     public string Name { get; private set; }
     private List<WorkflowStepTemplate> Steps { get; }
-    public ReadOnlyCollection<WorkflowStepTemplate>? ReadSteps => Steps.AsReadOnly();
+    public ReadOnlyCollection<WorkflowStepTemplate> ReadSteps => Steps.AsReadOnly();
 
     public WorkflowTemplate(Guid id, string name, List<WorkflowStepTemplate> steps)
     {

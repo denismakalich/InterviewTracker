@@ -5,8 +5,8 @@ namespace Domain.Entities.Requests;
 public class Document
 {
     public string Name { get; private set; }
-    public Email Email { get; private set; } = null!;
-    public DateTime Age { get; private set; }
+    public Email Email { get; private set; }
+    public DateTime? Age { get; private set; }
     public int Experience { get; private set; }
 
     public Document(string name, Email email, DateTime age, int experience)
@@ -43,9 +43,9 @@ public class Document
 
     public void SetAge(DateTime age)
     {
-        if (age < DateTime.Now)
+        if (age > DateTime.Now)
         {
-            throw new ArgumentException("Age is not filled in or filled in incorrectly", nameof(age));
+            throw new ArgumentException("Age is not filled in or filled in incorrectly.", nameof(age));
         }
 
         Age = age;
